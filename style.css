@@ -1,0 +1,354 @@
+body{
+    margin: 0;
+    background-color: #2a2828;
+
+}
+
+header{
+    height: 100%;
+    background-color: white;
+    margin: 15px;
+    border-radius: 60px;
+}
+
+
+
+.nav{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid gray;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    align-items: center;
+    padding: 0;
+}
+
+ul li{
+    text-align: center;
+    list-style: none;
+    margin: 0.8% auto;
+    font-size: 16px;
+    font-family: 'Onest', Arial, sans-serif;
+    line-height: 1.25;
+    font-weight: 500;
+}
+
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.top{
+    display: flex;
+    width: 80%;
+}
+
+.left{
+    width: 60%;
+}
+.right{
+    width: 40%;
+    text-align: center;
+}
+
+.h1l{
+   text-align: left;
+   font-size: 100px;
+   margin: 20px; 
+   font-family: 'BebasNeue', Arial, sans-serif;
+}
+
+.h1r{
+    text-align: right;
+    font-size: 100px;
+    margin: 20px; 
+    font-family: 'BebasNeue', Arial, sans-serif;
+}
+
+.btn1{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: green;
+    border: none;
+    color: white;
+    margin: 10% auto;
+}
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-bottom: 50px;
+}
+
+.block1{
+    width: 25%;
+    padding: 0 1%;
+}
+
+.block2{
+    width: 35%;
+    padding: 0 1%
+}
+.block3{
+    width: 30%;
+    padding: 0 1%;
+    font-size: 16px;
+    font-family: 'Onest', Arial, sans-serif;
+    line-height: 1.25;
+    font-weight: 500;
+
+}
+
+.bottom img{
+    border-radius: 50px;
+}
+
+
+.slider-container{
+    display: flex;
+    overflow: hidden;
+    width: 80%;
+    position: relative;
+    margin: auto;
+}
+
+.slide{
+    height: 800px;
+    flex: 0 0 100%;
+    display: none;
+    margin-top: 20px;
+}
+
+.slide img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover; /* Вписываем фотографию в область */
+    border-radius: 50px;
+    
+}
+
+.btn_left{
+    margin: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 20px auto;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 50%;
+    background-color: #ffffff7d;
+}
+
+.btn_right{
+    right: 0;
+    margin: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 20px auto;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 50%;
+    background-color: #ffffff7d;
+}
+
+/* точки под изображением */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    margin-bottom: 100px;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+/* Анимация */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+/* САМОСТОЯТЕЛЬНАЯ РАБОТА */
+
+.center{
+    width: 80%;
+}
+
+
+
+.containerblock{
+    height: 100%;
+    background-color: white;
+    margin: 15px;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.block4{
+    display: flex;
+    padding: 50px 0;
+}
+
+.bl4-left{
+    width: 70%;
+}
+
+.bl4-left h2{
+    text-align: left;
+    font-size: 80px;
+    font-family: 'BebasNeue', Arial, sans-serif;
+    margin: 0;
+}
+
+.bl4-right{
+    width: 30%;
+}
+
+
+.bl4-right p{
+    text-align: left;
+    font-size: 18px;
+    font-family: 'BebasNeue', Arial, sans-serif;
+}
+
+.block5{
+    display: flex;
+}
+.block5-1{
+    width: 25%;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid gray;
+    padding: 1%;
+}
+.block5-1 h4{
+    font-size: 25px;
+    font-family: 'BebasNeue', Arial, sans-serif;
+}
+
+.block5-1 h2{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'BebasNeue', Arial, sans-serif;
+}
+
+.block5-1 p{
+    font-size: 18px;
+    font-family: 'BebasNeue', Arial, sans-serif;
+    font-weight: 200;
+}
+
+.block6{
+    background-color: rgb(233, 233, 233);
+    display: flex;
+    border-radius: 50px;
+    margin: 50px 0 ;
+    padding: 50px;
+    background-image: url("images/1713601198468_Mask_group_1.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: 20%;
+
+}
+
+.bl6-left{
+    width: 70%;
+}
+
+.bl6-left h2{
+    text-align: left;
+    font-size: 80px;
+    font-family: 'BebasNeue', Arial, sans-serif;
+    margin: 0;
+}
+
+.bl6-left button{
+    margin: 20px;
+    height: 50px;
+    padding: 10px 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: transparent;
+    font-size: 18px;
+    font-family: 'BebasNeue', Arial, sans-serif;
+}
+.bl6-left button:hover{
+    cursor: pointer;
+    background-color: #80c31d;
+    border: none;
+    color: white;
+}
+
+.bl6-left p{
+    width: 80%;
+    font-size: 18px;
+    font-family: 'BebasNeue', Arial, sans-serif;
+    font-weight: 200;    
+}
+
+.bl6-right{
+    width: 30%;
+}
+.bl6-right button{
+    margin-top: 20%;
+    padding: 20px;
+    background-color: #80c31d;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+    font-family: 'BebasNeue', Arial, sans-serif;
+
+}
+.bl6-right button:hover{
+    cursor: pointer;
+    border: 1px solid gray;
+    color: #2a2828;
+    border-radius: 10px;
+    background-color: transparent;
+}
+span{
+    color: #80c31d;
+}
+
+.lenta-container{
+    height: 500px;
+    width: 100%;
+    background-color: white;
+    border-radius: 50px;
+    margin: 15px;
+}
+

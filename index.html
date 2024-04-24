@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <ul>
+                <li><img width="183px" src="images\Frame_1.svg" alt=""></li>
+                <li></li>
+                <li>Об игре</li>
+                <li>Стоимость</li>
+                <li>Контакты</li>
+                <li></li>
+                <li></li>
+                <li>ул.Лавочкина 6/2</li>
+                <li>+7 927 255-22-77</li>
+                <li style="margin: 5px;" ><img src="images\Telegram.svg" alt=""></li>
+                <li style="margin-left: 5px;"><img src="images\WhatsApp.svg" alt=""></li>
+            </ul>
+        </div>
+
+        <div class="container"> 
+            <div class="top">
+                <div class="left">
+                    <h1 class="h1l">ПАДЕЛ-ТЕННИС</h1>
+                    <h1 class="h1r">В ВОЛГОГРАДЕ</h1>
+                </div>
+                <div class="right">
+                    <button class="btn1">Записаться</button>
+                </div>
+            </div>
+        </div>
+        <div class="container"> 
+            <div class="bottom">
+                <div class="block1">
+                    <img width="100%" src="images\Rectangle_1001.jpg" alt="">
+                </div>
+                <div class="block2">
+                    <img width="100%"  src="images\Rectangle_1000.jpg" alt="">
+                </div>
+                <div class="block3">
+                    <p style="padding: 20px;">Присоединяйся к комьюнити, тренируйся и получай яркие эмоции от самого быстрорастущего спорта</p>
+                    <img width="100%" src="images\Rectangle_1029.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+        <div class="slider-container">
+            <div class="slide fade">
+                <img src="images\1713349092630_picture1.jpg" alt="Image 1">
+            </div>
+
+            <div class="slide">
+                <img src="images\1713349108727_picture2.jpg" alt="Image 2">
+            </div>
+            <div class="slide">
+                <img src="images\1713349123196_picture3.jpg" alt="Image 1">
+            </div>
+
+            <div class="slide">
+                <img src="images\1713349134717_picture4.jpg" alt="Image 2">
+            </div>
+
+            <button onclick="moveSlide(-1);" class="btn_left">&#10094;</button>
+            <button onclick="moveSlide(1);"  class="btn_right">&#10095;</button>
+        </div>
+        <br>
+    
+        <!-- Круги под картинкой -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+
+        </div>
+            
+    </main>
+
+    <main>
+        <div class="containerblock">
+            <div class="center">
+                <div class="block4">
+                    <div class="bl4-left">
+                        <h2>ОТЛИЧИЯ <span>ПАДЕЛ</span> <br>ОТ БОЛЬШОГО ТЕННИСА</h2>
+                    </div>
+                    <div class="bl4-right">
+                        <p><span>*</span>Падел — смесь большого тенниса, пинг-понга и сквоша</p>
+                    </div>
+
+                </div>
+
+                <div class="block5">
+                    <div class="block5-1">
+                        <h4><span>//</span>01</h4>
+                        <h2>Размеры корта</h2>
+                        <br>
+                        <p>Корты для падел немного меньше и имеют дополнительное ограждение. Игроки могут быстро и легко перемешаться по площадке</p>
+                    </div>
+
+                    <div class="block5-1">
+                        <h4><span>//</span>02</h4>
+                        <h2>Количество игроков</h2>
+                        <br>
+                        <p>В падел играют два игрока на одной стороне площадки. Это делает падел более подходящим для семейных игр и небольших компаний</p>
+                    </div>
+
+                    <div class="block5-1">
+                        <h4><span>//</span>03</h4>
+                        <h2>Ракетки</h2>
+                        <br>
+                        <p>В паделе специальные ракетки с меньшим размером и более короткой рукояткой, что позволяет игрокам играть дольше</p>
+                    </div>
+
+                    <div class="block5-1">
+                        <h4><span>//</span>04</h4>
+                        <h2>Высота сетки</h2>
+                        <br>
+                        <p>Сетка в падел обычно располагается на высоте около 1,07 метра от земли, что ниже, чем в большом теннисе. Это делает игру более активной</p>
+                    </div>
+
+                </div>
+
+                <div class="block6">
+                    <div class="bl6-left">
+                        <div style="display: flex;">
+                            <h2>АКЦИЯ <span>АПРЕЛЯ</span></h2>
+                            <button>новым клиентам</button>
+                        </div>
+                        <p>Если вы не знакомы с игрой в падел, забронируйте корт, скажите нам об этом, и в качестве бонуса профессиональный тренер расскажет правила и покажет технику игры</p>
+                        
+                    </div>
+                    <div class="bl6-right">
+                        <button>Написать администратору</button>
+                    </div>
+
+                </div>
+                
+            </div>
+
+        </div>
+    </main>
+ 
+
+</body>
+</html>
